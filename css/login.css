@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(245, 244, 243);
+    
+}
+.logo{
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-size: 85px;
+    width: 80px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    background-color: white;
+    width: 230px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 40px 100px rgba(93, 93, 93, 0.336);
+    position: relative;
+    top: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.image{
+    background-image: url(../image/login.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image::after{
+    background-color: rgba(84,87,91,.5);
+    width: 60px;
+    height: 10px;
+    filter: blur(2px);
+    border-radius: 50%;
+    content: "";
+    bottom: -20px;
+    right: -5px;
+    position: absolute;
+}
+h2{
+    font-size: 1rem;
+    position: relative;
+    top: -15px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+ p{
+    color: gray;
+    position: relative;
+    width: 230px;
+    top: -30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+ }
+ label{
+    display: inline-block;
+    margin-top: -40px;
+    font-size: 0.9rem;
+ }
+ input{
+    all: unset;
+    margin-top: -10px;
+    padding: 8px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    width: 210px;
+ }
+ button{
+    all: unset;
+    background-color: rgb(5, 90, 225);
+    color: white;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 15%;
+    border-radius: 8px;
+    text-align: center;
+ }
+@media(min-width: 768px){
+    .card{
+        width: 320px;
+        height: 430px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    .image{
+        background-size: 80px;
+        width: 90px;
+        height: 100px;
+        top: -70px;
+    }
+    .image::after{
+        width: 80px;
+        right: 10px;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    p{
+        width: 300px;
+    }
+    label{
+        margin-top: -20px;
+        font-size: 1rem;
+    }
+    input{
+        margin: 10px 0;
+        padding: 20px 20px;
+        width: 280px;
+    }
+    button{
+        width: 320px;
+        height: 60px;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+ 
+ 
+ a{
+    all: unset;
+    cursor: pointer;
+}

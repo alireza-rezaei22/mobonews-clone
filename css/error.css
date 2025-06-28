@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(245, 244, 243);
+}
+div{
+    width: 300px;
+    height: 430px;
+    padding: 0 20px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 0;
+    animation: alan 1.5s ease-in infinite alternate;
+}
+h2{
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: -10px;
+}
+h4{
+    font-size: 18px;
+    display: inline;
+}
+a{
+    all: unset;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+@media(min-width:768px){
+    div{
+        width: 550px;
+        height: 430px;
+    }
+    h1{
+        font-size: 200px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    a{
+        font-size: 18px;
+    }
+}
+@keyframes alan{
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+    }
+}
